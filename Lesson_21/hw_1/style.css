@@ -5,6 +5,7 @@ html {
 }
 
 body {
+  box-sizing: border-box;
   min-height: 100vh;
   min-width: 100vw;
   box-sizing: border-box;
@@ -37,7 +38,6 @@ body {
   padding: 0px 0.5em;
   white-space: nowrap;
   overflow: hidden;
-  text-overflow: ellipsis;
 }
 .nav-list-link {
   display: block;
