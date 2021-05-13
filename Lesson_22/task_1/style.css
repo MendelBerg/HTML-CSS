@@ -22,9 +22,10 @@ body {
   .square {
     background-color: #8a2be2;
   }
+}
 
+@media screen and (orientation: landscape) {
   .container {
     display: flex;
   }
 }
-
