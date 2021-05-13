@@ -28,7 +28,6 @@ body {
 }
 .nav-list {
   padding: 0;
-  list-style-type: none;
 }
 .nav-list-item {
   color: #fff;
@@ -36,14 +35,14 @@ body {
   line-height: 2em;
   margin-bottom: 0.5em;
   padding-left: 0.5em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  list-style-type: none;
 }
 .nav-list-link {
-  display: block;
   color: #fff;
   text-decoration: none;
-  overflow: hidden;
-  white-space: nowrap;
-  text-overflow: ellipsis;
 }
 .section {
   width: 60%;
