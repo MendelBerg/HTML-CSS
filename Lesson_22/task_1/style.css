@@ -14,7 +14,7 @@ body {
 .square {
   width: 100px;
   height: 100px;
-  margin: 16px;
+  margin: 8px;
   background-color: #ff7f50;
 }
 
@@ -27,5 +27,9 @@ body {
 @media screen and (orientation: landscape) {
   .container {
     display: flex;
+  }
+
+  .square {
+    margin: 16px;
   }
 }
