@@ -39,6 +39,7 @@ span {
 
   .products > * {
     flex-grow: 1;
+    flex-basis: 50%;
   }
 }
 
@@ -49,9 +50,15 @@ span {
 
   .products{
     flex-grow: 2;
+    flex-basis: 66.666%;
+  }
+
+  .products > * {
+    flex-basis: 50%;
   }
 
   .news {
     flex-grow: 1;
+    flex-basis: 33.333%;
   }
 }
