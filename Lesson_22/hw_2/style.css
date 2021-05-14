@@ -92,10 +92,10 @@ body {
     flex-direction: row;
     flex-wrap: wrap;
   }
-/* 
+
   .img {
-    max-width: 80%;
-  } */
+    max-width: 90%;
+  }
 
   .navigation {
     width: 20%;
