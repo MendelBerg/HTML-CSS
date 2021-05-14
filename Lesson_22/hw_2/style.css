@@ -94,11 +94,11 @@ body {
   }
 
   .navigation {
-    width: 20%;
+    flex: 0 1 20%;
   }
 
   .section {
-    width: 80%;
+    flex: 0 1 80%;
   }
 
   .news {
@@ -112,10 +112,10 @@ body {
   }
   .navigation,
   .news {
-    width: 20%;
+    flex: 0 1 20%;
   }
 
   .section {
-    width: 60%;
+    flex: 0 1 60%;
   }
 }
