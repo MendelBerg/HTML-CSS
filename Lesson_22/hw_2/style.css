@@ -93,10 +93,6 @@ body {
     flex-wrap: wrap;
   }
 
-  .img {
-    max-width: 100%;
-  }
-
   .navigation {
     width: 20%;
   }
@@ -120,6 +116,6 @@ body {
   }
 
   .section {
-    width: 80%;
+    width: 60%;
   }
 }
