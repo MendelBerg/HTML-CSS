@@ -1,0 +1,21 @@
+$md: 600px;
+$lg: 900px;
+
+$unit: 4px;
+
+$color-nav: #ff7f50;
+$color-products: #006400;
+$color-news: #0ff;
+$color-content: #faebd7;
+
+@mixin for-medium-up {
+  @media screen and (min-width: $md) {
+    @content;
+  }
+}
+
+@mixin for-large {
+  @media screen and (min-width: $lg) {
+    @content;
+  }
+}

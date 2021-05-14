@@ -1,0 +1,51 @@
+@import 'layout.scss';
+
+body {
+  @include for-large {
+    display: flex;
+  }
+}
+
+.wrapper {
+  @include for-medium-up {
+    display: flex;
+
+    & > * {
+      flex: 0 1 50%;
+    }
+  }
+
+  @include for-large {
+    flex: 0 1 66.666%;
+  }
+}
+
+.nav {
+  background-color: $color-nav;
+}
+.products-list {
+  background-color: $color-products;
+}
+.news {
+  background-color: $color-news;
+  @include for-large {
+    flex: 0 1 33.333%;
+  }
+}
+
+.nav,
+.products-list,
+.news {
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+span {
+  text-transform: lowercase;
+  font-family: Verdana;
+  padding: $unit * 2;
+  background-color: $color-content;
+  border-radius: $unit;
+}
