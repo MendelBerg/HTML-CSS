@@ -19,7 +19,7 @@
     padding: $unit;
     font-weight: bold;
     cursor: pointer;
-    margin: 4px;
+    margin-left: $unit;
     background-color: $color-secondary;
     &_selected {
       background-color: $color-primary;
