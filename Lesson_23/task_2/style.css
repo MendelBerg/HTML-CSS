@@ -7,10 +7,14 @@ body {
   align-items: center;
   justify-content: center; }
 
+@media screen and (orientation: landscape) {
+  .container {
+    display: flex; } }
+
 .square {
   width: 100px;
   height: 100px;
-  margin: 8px;
+  margin: 16px;
   background-color: #ff7f50; }
   @media screen and (min-width: 600px) {
     .square {
@@ -21,5 +25,8 @@ body {
   @media screen and (min-width: 1200px) {
     .square {
       background-color: #c47; } }
+  @media screen and (orientation: landscape) {
+    .square {
+      margin: 8px; } }
 
 /*# sourceMappingURL=style.css.map */

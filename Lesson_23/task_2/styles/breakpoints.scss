@@ -30,3 +30,9 @@ $color-extra-lg: #c47;
     background-color: $clr;
   }
 }
+
+@mixin for-landscape {
+  @media screen and (orientation: landscape) {
+    @content;
+  }
+}

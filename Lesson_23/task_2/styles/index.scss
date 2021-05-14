@@ -12,11 +12,14 @@ body {
 }
 
 .container {
+  @include for-landscape {
+    display: flex;
+  };
 }
 .square {
   width: 100px;
   height: 100px;
-  margin: 8px;
+  margin: 16px;
   background-color: $color-sm;
 
   @include for-medium-up {
@@ -25,4 +28,7 @@ body {
 
   @include for-large($color-lg);
   @include for-extra-large($color-extra-lg);
+  @include for-landscape {
+    margin: 8px;
+  }
 }
