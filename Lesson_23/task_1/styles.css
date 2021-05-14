@@ -1,0 +1,30 @@
+.header {
+  background-color: #eee; }
+
+.nav-list {
+  display: flex;
+  align-items: center;
+  padding: 0;
+  list-style-type: none;
+  height: 56px; }
+  .nav-list__item {
+    border-radius: 4px;
+    color: #fff;
+    padding: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 4px;
+    background-color: #ff7f50; }
+    .nav-list__item_selected {
+      background-color: #fb0; }
+    .nav-list__item:hover {
+      opacity: .7; }
+
+* {
+  box-sizing: border-box; }
+
+html {
+  font-size: 16px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif; }
+
+/*# sourceMappingURL=styles.css.map */
